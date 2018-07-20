@@ -1,0 +1,72 @@
+﻿{
+  "lab-certificates": [
+    {
+      "lab-name": "SSAB",
+      "cert-name": "EN 10204 3.1",
+      "properties": [
+        {
+          "name": "C",
+          "test-result": "0.156"
+        },
+        {
+          "name": "Si",
+          "test-result": "0.1"
+        },
+        {
+          "name": "Mn",
+          "test-result": "1.46"
+        },
+        {
+          "name": "P",
+          "test-result": "0.009"
+        },
+        {
+          "name": "S",
+          "test-result": "0.006"
+        },
+        {
+          "name": "Cr",
+          "test-result": "0.03"
+        },
+        {
+          "name": "Ni",
+          "test-result": "0.04"
+        }
+      ]
+    },
+    {
+      "lab-name": "Outokumpo",
+      "cert-name": "EN 10204 3.1",
+      "properties": [
+        {
+          "name": "C",
+          "test-result": "0.156"
+        },
+        {
+          "name": "Si",
+          "test-result": "0.1"
+        },
+        {
+          "name": "Mn",
+          "test-result": "1.46"
+        },
+        {
+          "name": "P",
+          "test-result": "0.009"
+        },
+        {
+          "name": "S",
+          "test-result": "0.006"
+        },
+        {
+          "name": "Cr",
+          "test-result": "0.03"
+        },
+        {
+          "name": "Ni",
+          "test-result": "0.04"
+        }
+      ]
+    }
+  ]
+}

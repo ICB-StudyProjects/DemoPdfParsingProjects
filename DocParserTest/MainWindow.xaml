@@ -1,0 +1,54 @@
+﻿<Window x:Class="DocParserTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocParserTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <Grid HorizontalAlignment="Left" Height="208" Margin="10,201,0,0" VerticalAlignment="Top" Width="772" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="103*"/>
+                <RowDefinition Height="103*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Rectangle Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="5" Fill="#f3f3f3" />
+
+            <TextBox Grid.Row="0" Grid.Column="0" Text="Element" TextAlignment="Center" FontWeight="Bold" Background="Transparent" />
+            <TextBox Grid.Row="0" Grid.Column="1" Text="Min" TextAlignment="Center" FontWeight="Bold" Background="Transparent" />
+            <TextBox Grid.Row="0" Grid.Column="2" Text="Max" TextAlignment="Center" FontWeight="Bold" Background="Transparent" />
+            <TextBox Grid.Row="0" Grid.Column="3" Text="Result" TextAlignment="Center" FontWeight="Bold" Background="Transparent" />
+            <TextBox Grid.Row="0" Grid.Column="4" Text="Diff" TextAlignment="Center" FontWeight="Bold" Background="Transparent" />
+        </Grid>
+
+        <TextBox x:Name="txtSelectCert" HorizontalAlignment="Left" Height="23" Margin="98,45,0,0" TextWrapping="Wrap" Text="Select a certificate" VerticalAlignment="Top" Width="120" />
+
+        <Button x:Name="btnSelectFile" Content="Add Cert" HorizontalAlignment="Left" Margin="223,45,0,0" VerticalAlignment="Top" Width="75" Click="btnSelectCert_Click" RenderTransformOrigin="-1.864,0.671" Height="23"/>
+
+        <Button x:Name="btnSendData" Content="Send Data" HorizontalAlignment="Left" Margin="223,75,0,0" VerticalAlignment="Top" Width="75" Click="btnSendData_Click"/>
+
+        <Label Content="Result element table" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.964,0.607" Width="137"/>
+        <Label Content="Lab Certificate:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="88"/>
+        <Label Content="Specification:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="88"/>
+        <TextBox x:Name="txtSelectSpec" HorizontalAlignment="Left" Height="23" Margin="98,14,0,0" TextWrapping="Wrap" Text="Select a specification" VerticalAlignment="Top" Width="120" />
+        <Button x:Name="btnSelectSpec" Content="Add Spec" HorizontalAlignment="Left" Margin="223,14,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnSelectSpec_Click"/>
+        <ComboBox x:Name="cboLabParsers" HorizontalAlignment="Left" Margin="98,73,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Lab Parser:&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Width="83" Height="28"/>
+
+    </Grid>
+</Window>

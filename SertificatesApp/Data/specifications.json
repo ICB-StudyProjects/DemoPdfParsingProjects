@@ -1,0 +1,117 @@
+﻿{
+  "company-specifications": [
+    {
+      "name": "EN 10204 3.1",
+      "properties": [
+        {
+          "name": "C",
+          "range": {
+            "min": "0.38",
+            "max": "0.43"
+          }
+        },
+        {
+          "name": "SI",
+          "range": {
+            "min": "0.15",
+            "max": "0.30"
+          }
+        },
+        {
+          "name": "MN",
+          "range": {
+            "min": "0.65",
+            "max": "0.85"
+          }
+        },
+        {
+          "name": "P",
+          "range": {
+            "max": "0.30"
+          }
+        },
+        {
+          "name": "S",
+          "range": {
+            "max": "0.25"
+          }
+        },
+        {
+          "name": "CR",
+          "range": {
+            "min": "0.70",
+            "max": "0.90"
+          }
+        },
+        {
+          "name": "NI",
+          "range": {
+            "min": "1.65",
+            "max": "2.00"
+          }
+        },
+        {
+          "name": "MO",
+          "range": {
+            "min": "0.20",
+            "max": "0.30"
+          }
+        }
+      ]
+    },
+    {
+      "name": "EN 10203 2.1",
+      "properties": [
+        {
+          "name": "Si",
+          "range": {
+            "min": "0.301",
+            "max": "0.322"
+          }
+        },
+        {
+          "name": "C",
+          "range": {
+            "min": "1.38",
+            "max": "2.48"
+          }
+        },
+        {
+          "name": "Mn",
+          "range": {
+            "min": "0.79",
+            "max": "0.82"
+          }
+        },
+        {
+          "name": "P",
+          "range": {
+            "min": "0.022",
+            "max": "0.025"
+          }
+        },
+        {
+          "name": "S",
+          "range": {
+            "min": "0.008",
+            "max": "0.009"
+          }
+        },
+        {
+          "name": "Cr",
+          "range": {
+            "min": "22.46",
+            "max": "22.51"
+          }
+        },
+        {
+          "name": "Ni",
+          "range": {
+            "min": "5.47",
+            "max": "5.64"
+          }
+        }
+      ]
+    }
+  ]
+}
